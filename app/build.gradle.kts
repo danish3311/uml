@@ -44,6 +44,13 @@ android {
     }
 }
 
+repositories {
+    google()
+    mavenCentral()
+    maven { url = uri("https://github.com/termux/termux-app/raw/apt-repo/") }
+    maven { url = uri("https://jitpack.io") }
+}
+
 dependencies {
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.appcompat:appcompat:1.7.0")
@@ -51,4 +58,8 @@ dependencies {
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("androidx.lifecycle:lifecycle-service:2.8.4")
     implementation("androidx.activity:activity-ktx:1.9.1") // ActivityResultContracts.OpenDocument for the rootfs file picker
+    
+    // Termux libraries
+    implementation("com.termux:termux-app:0.118.0")
+    implementation("com.termux:termux-shared:0.118.0")
 }
