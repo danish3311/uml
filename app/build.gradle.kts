@@ -51,9 +51,4 @@ dependencies {
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("androidx.lifecycle:lifecycle-service:2.8.4")
     implementation("androidx.activity:activity-ktx:1.9.1") // ActivityResultContracts.OpenDocument for the rootfs file picker
-
-    // Termux's terminal emulator + view - independent open-source project,
-    // gives us a real PTY-backed xterm-style terminal widget.
-    implementation("com.termux:terminal-emulator:1.0.7")
-    implementation("com.termux:terminal-view:1.0.7")
 }
