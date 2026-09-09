@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UM Linux</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="status_idle">Not running</string>
+    <string name="status_preparing">Preparing kernel…</string>
+    <string name="status_missing_rootfs">No rootfs yet — pick a file or download one below</string>
+    <string name="status_booting">Booting…</string>
+    <string name="status_running">Running</string>
+    <string name="pick_rootfs">Pick rootfs…</string>
+    <string name="download_rootfs">Download rootfs</string>
+    <string name="status_importing_rootfs">Importing rootfs…</string>
+    <string name="status_rootfs_ready">Rootfs ready</string>
+</resources>
